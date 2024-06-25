@@ -1,0 +1,13 @@
+.superhero-stats {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .superhero-stats li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  

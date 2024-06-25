@@ -1,0 +1,51 @@
+.app-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.app-container form{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-input{
+  width: 100%;
+  height: 50px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 0 10px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.form-btns-container{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-btn{
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+body {
+  background-color: #bc1111; /* Change background color to your desired color */
+  /* Additional styles for body */
+}
